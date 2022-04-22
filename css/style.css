@@ -62,7 +62,8 @@
 
 #hero-section,
 #quote-section,
-#service-section {
+#service-section,
+#brand-section {
     padding: 80px 0;
 }
 
@@ -361,4 +362,40 @@
 .experience-content p {
     color: #1E1B1B;
     margin-top: 10px;
+}
+
+/*---- brand section ----*/
+
+.brand-header h5 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.division1,
+.division2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1E1B1B;
+}
+
+.division2 {
+    margin-top: 80px;
+}
+
+.vector {
+    display: flex;
+    margin: 0 35px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.vector img {
+    margin-right: 10px;
+}
+
+#vector2part1,
+#vector2part2 {
+    margin-right: 0;
 }
