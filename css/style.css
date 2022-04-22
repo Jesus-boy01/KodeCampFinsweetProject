@@ -68,7 +68,7 @@
 }
 
 #hero-section .image-section {
-    background-image: url(../img/header-image.png);
+    background-image: url("../img/header-image.png");
     background-size: cover;
     background-position: center;
     min-height: 68vh;
