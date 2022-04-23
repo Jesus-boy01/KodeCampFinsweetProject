@@ -245,23 +245,14 @@
 
 .services {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
-.col1,
-.col2,
-.col3,
-.col4 {
+.services-section1,
+.services-section2 {
     display: flex;
-    flex-direction: column;
-    cursor: pointer;
-}
-
-.col1 img,
-.col2 img,
-.col3 img,
-.col4 img {
+    flex-wrap: wrap;
     margin-bottom: 10px;
 }
 
@@ -284,20 +275,26 @@
     text-align: center;
 }
 
+.diagnostics p,
+.engine-repair p,
+.oil-filter p,
+.body-work p,
+.batteries p,
+.insurance-claim p,
+.custom-service p {
+    margin-top: 10px;
+}
+
+.wheel-repair p {
+    margin-top: 10px;
+}
+
 #diagnostics {
-    padding: 58px 0;
+    padding: 50px 61px;
 }
 
-#engine {
-    padding: 53px 0;
-}
-
-.row1 {
-    margin: 5px 3px 10px;
-}
-
-.row2 {
-    margin: 0 3px 0;
+.antenna {
+    margin: 0 0 -15px -11px;
 }
 
 .learn-about-services {
@@ -377,7 +374,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #1E1B1B;
 }
 
 .division2 {
@@ -393,6 +389,19 @@
 
 .vector img {
     margin-right: 10px;
+}
+
+#vector1,
+#vector2 {
+    margin: 0;
+}
+
+#vectorpart {
+    margin: 0 -20px 15px 0;
+}
+
+#vectorpart1 {
+    margin: 15px 10px 0 -20px;
 }
 
 #part1,
