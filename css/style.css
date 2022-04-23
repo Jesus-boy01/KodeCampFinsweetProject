@@ -299,7 +299,9 @@
 
 .learn-about-services {
     display: flex;
+    width: 68%;
     justify-content: flex-end;
+    margin: 20px auto 0;
 }
 
 .learn-about-services p {
