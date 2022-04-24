@@ -401,11 +401,13 @@
     margin: 0;
 }
 
-#vectorpart {
+#vectorpart1,
+#vectorpart2 {
     margin: 0 -20px 15px 0;
 }
 
-#vectorpart1 {
+#vectorpart3,
+#vectorpart4 {
     margin: 15px 10px 0 -20px;
 }
 
