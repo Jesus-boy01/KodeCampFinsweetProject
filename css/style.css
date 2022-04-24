@@ -266,6 +266,7 @@
     padding: 50px 50px;
     background-color: #fff;
     text-align: center;
+    margin-left: 5px;
 }
 
 .wheel-repair {
@@ -273,6 +274,7 @@
     background-color: #FF6433;
     color: #fff;
     text-align: center;
+    margin-left: 5px;
 }
 
 .diagnostics p,
@@ -299,7 +301,7 @@
 
 .learn-about-services {
     display: flex;
-    width: 68%;
+    width: 70%;
     justify-content: flex-end;
     margin: 20px auto 0;
 }
@@ -312,18 +314,23 @@
 
 .display {
     display: flex;
-    width: 100%;
 }
 
 .car-getintouch {
     display: flex;
+    background-image: url("../img/mechanic-repair.png");
+    min-height: 48vh;
+    width: 18%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.car-getintouch  h5 {
-    font-size: 48px;
+.display h5 {
+    font-size: 40px;
     color: #F2F2F2;
     background-color: #FF6433;
-    padding: 20px 30px;
+    padding: 60px 40px 30px;
 }
 
 .car-getintouch img {
@@ -333,11 +340,7 @@
 
 .carengine img {
     width: 600px;
-    height: 300px;
-}
-
-.car-getintouch img {
-    z-index: 2;
+    height: 100%;
 }
 
 .experience {
