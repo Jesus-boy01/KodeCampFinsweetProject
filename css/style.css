@@ -67,7 +67,7 @@
 #quote-section,
 #service-section,
 #brand-section,
-#reviews-section {
+#reviews-section{
     padding: 80px 0;
 }
 
@@ -586,4 +586,86 @@
     width: 90%;
     justify-content: flex-start;
     margin-bottom: 10px;
+}
+
+/*---- contact section ----*/
+
+#contact-section {
+    background-color: #1E1B1B;
+    opacity: 0.98;
+    color: #fff;
+    padding: 150px 0;
+}
+
+.contact-service {
+    width: 40%;
+}
+
+.contact-service h3 {
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.contact-service img {
+    margin-right: 20px;
+}
+
+.contacts {
+    width: 60%;
+    padding-left: 130px;
+}
+
+.contacts ul li {
+    list-style: none;
+    color: #939191;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contacts ul p {
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+/*---- footer ----*/
+
+footer {
+    background-color: #1E1B1B;
+    padding: 60px 0;
+}
+
+.footer {
+    align-items: center;
+}
+
+.footer-logo {
+    width: 30%;
+    color: #fff;
+}
+
+.footer-nav-links {
+    width: 50%;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-text {
+    width: 20%;
+    color: #939191;
+    font-size: 16px;
+}
+
+.footer-nav-links ul li {
+    list-style: none;
+}
+
+.footer-nav-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.footer-nav-links ul li a:hover {
+    color: #FF6433;
+    transition: 0.3s ease-in-out;
 }
