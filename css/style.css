@@ -270,6 +270,7 @@
     background-color: #fff;
     text-align: center;
     margin-left: 5px;
+    width: 200px;
 }
 
 .wheel-repair {
@@ -278,6 +279,19 @@
     color: #fff;
     text-align: center;
     margin-left: 5px;
+    width: 200px;
+}
+
+.diagnostics:hover,
+.body-work:hover,
+.engine-repair:hover,
+.batteries:hover,
+.insurance-claim:hover,
+.oil-filter:hover,
+.custom-service:hover {
+    background-color: #FF6433;
+    color: #fff;
+    transition: 0.5s ease;
 }
 
 .diagnostics p,
@@ -317,6 +331,7 @@
 
 .display {
     display: flex;
+    height: 350px;
 }
 
 .car-getintouch {
@@ -329,20 +344,29 @@
     background-size: cover;
 }
 
-.display h5 {
-    font-size: 40px;
-    color: #F2F2F2;
+.display-text {
     background-color: #FF6433;
-    padding: 60px 40px 30px;
+    width: 40%;
 }
 
-.car-getintouch img {
-    width: 400px;
-    height: 300px;
+.display-text h5 {
+    font-size: 40px;
+    color: #F2F2F2;
+    padding: 80px 40px 30px;
+    margin-bottom: 30px;
+}
+
+.display-text a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1E1B1B;
+    padding: 15px;
+    border-radius: 5px;
 }
 
 .carengine img {
-    width: 600px;
+    width: 100%;
     height: 100%;
 }
 
