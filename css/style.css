@@ -537,3 +537,53 @@
 .arrow-navigations img {
     width: 5%;
 }
+
+/*---- faq section ----*/
+
+#faq-section {
+    background-color: #E2E6E9;
+    padding: 150px 0;
+}
+
+.faq-header h3 {
+    font-size: 48px;
+    color: #1E1B1B;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.faq-content {
+    margin: 0 150px;
+}
+
+.time-duration,
+.appointment,
+.repair-services,
+.auto-body,
+.spare-parts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 20px 20px 20px 10px;
+}
+
+.faq-content h5 {
+    font-size: 24px;
+}
+
+.duration p {
+    width: 90%;
+    font-size: 18px;
+}
+
+.duration-function img {
+    margin-bottom: 80px;
+}
+
+.content {
+    width: 90%;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
