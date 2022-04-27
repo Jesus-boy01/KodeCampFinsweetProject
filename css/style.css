@@ -339,7 +339,6 @@
 .car-getintouch {
     display: flex;
     background-image: url("../img/mechanic-repair.png");
-    /* min-height: 48vh; */
     width: 18%;
     background-position: left;
     background-repeat: no-repeat;
@@ -352,10 +351,9 @@
 }
 
 .display-text h5 {
-    font-size: 40px;
+    font-size: 35px;
     color: #F2F2F2;
-    padding: 80px 40px 30px;
-    margin-bottom: 30px;
+    padding: 45px 40px 50px;
 }
 
 .display-text a {
@@ -363,7 +361,7 @@
     text-decoration: none;
     color: #fff;
     background-color: #1E1B1B;
-    padding: 15px;
+    padding: 15px 25px 15px;
     border-radius: 5px;
 }
 
