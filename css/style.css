@@ -66,7 +66,8 @@
 #hero-section,
 #quote-section,
 #service-section,
-#brand-section {
+#brand-section,
+#reviews-section {
     padding: 80px 0;
 }
 
@@ -193,6 +194,7 @@
 
 .about {
     width: 50%;
+    margin-top: -100px;
 }
 
 .listings {
@@ -337,7 +339,7 @@
 .car-getintouch {
     display: flex;
     background-image: url("../img/mechanic-repair.png");
-    min-height: 48vh;
+    /* min-height: 48vh; */
     width: 18%;
     background-position: left;
     background-repeat: no-repeat;
@@ -363,6 +365,12 @@
     background-color: #1E1B1B;
     padding: 15px;
     border-radius: 5px;
+}
+
+.display-text a:hover {
+    color: #FF6433;
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
 }
 
 .carengine img {
@@ -394,6 +402,10 @@
 }
 
 /*---- brand section ----*/
+
+#brand-section {
+    margin-bottom: 50px;
+}
 
 .brand-header h5 {
     font-size: 48px;
@@ -452,4 +464,78 @@
 #vector2part1,
 #vector2part2 {
     margin-right: 0;
+}
+
+/*---- reviews section ----*/
+
+#reviews-section {
+    background-color: #F2F2F2;
+    height: auto;
+}
+
+.reviews-division {
+    justify-content: space-around;
+}
+
+.reviews-header {
+    text-align: center;
+}
+
+.reviews-header h3 {
+    font-size: 48px;
+    margin-bottom: 100px;
+}
+
+.review-content {
+    width: 47%;
+    background-color: #fff;
+    padding: 60px;
+}
+
+.review-heading {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.review-image {
+    margin-right: 20px;
+}
+
+.review-text h5 {
+    font-size: 24px;
+}
+
+.review-text p {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.review-paragraph p {
+    font-size: 24px;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.reviews-navigations {
+    margin-bottom: 20px;
+}
+
+.pages,
+.arrow-navigations {
+    display: flex;
+}
+
+.pages {
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.arrow-navigations {
+    justify-content: flex-end;
+    margin-top: -32px;
+}
+
+.arrow-navigations img {
+    width: 5%;
 }
