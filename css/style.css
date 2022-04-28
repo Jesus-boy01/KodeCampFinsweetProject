@@ -206,10 +206,6 @@
     margin-right: 18px;
 }
 
-.listings-image img {
-    font-size: 10px;
-}
-
 .line {
     text-align: center;
     width: 3%;
@@ -394,7 +390,13 @@
     margin: 0 70px;
 }
 
-.experience-content p {
+.exp-paragraph-head {
+    font-size: 58px;
+    color: #661CE7;
+    font-weight: bolder;
+}
+
+.exp-paragraph-text p {
     color: #1E1B1B;
     margin-top: 10px;
 }
