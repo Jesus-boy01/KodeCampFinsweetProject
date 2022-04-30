@@ -329,7 +329,7 @@
 
 .display {
     display: flex;
-    height: 350px;
+    max-height: 350px;
 }
 
 .car-getintouch {

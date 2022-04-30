@@ -1,6 +1,9 @@
 /*---- Mobile Devices ----*/
 
 @media (max-width: 456px) {
+
+    *
+
     /*---- header section ----*/
 
     .main-header {
@@ -93,6 +96,11 @@
         margin-bottom: 150px;
     }
 
+    .orange-btn {
+        font-size: 12px;
+        padding: 16px 20px;
+    }
+
     .learnmore h3 {
         font-size: 35px;
     }
@@ -101,7 +109,106 @@
         width: 100%;
     }
 
-    .listing-image {
+    #one,
+    #two,
+    #three {
+        width: 85%;
+    }
+
+    .listings-content h5 {
+        font-size: 25px;
+    }
+
+    .listings-content p {
+        font-size: 16px;
+    }
+
+    /*---- service section ----*/
+
+    .service-header h2 {
+        font-size: 35px;
+    }
+
+    .diagnostics,
+    .body-work,
+    .engine-repair,
+    .wheel-repair,
+    .batteries,
+    .insurance-claim,
+    .oil-filter,
+    .custom-service {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /*---- experience section ----*/
+
+    .car-getintouch,
+    .display-text,
+    .carengine {
+        width: 100%;
+    }
+
+    .car-getintouch {
+        padding-bottom: 200px;
+    }
+
+    .display-text {
+        min-height: 100vh;
+    }
+
+    .experience-content {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 470px;
+    }
+
+    .professionals,
+    .years-of-experience,
+    .service-closed,
+    .customer-satisfaction {
+        margin: 0 0 20px;
+    }
+
+    /*---- brand section ----*/
+
+    #brand-section {
+        margin-bottom: 0;
+    }
+
+    .brand-header h5 {
+        font-size: 35px;
+    }
+
+    .vector {
+        margin-bottom: 40px;
+    }
+
+    .vector p {
+        font-size: 23px;
+    }
+
+    .division2 {
+        display: none;
+    }
+
+    /*---- reviews section ----*/
+
+    .reviews-header h3 {
+        font-size: 35px;
+    }
+
+    .review-content {
+        width: 100%;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+
+    .arrow-navigations {
+        margin-top: -20px;
+    }
+
+    .arrow-navigations img {
         width: 10%;
     }
 }
