@@ -211,4 +211,39 @@
     .arrow-navigations img {
         width: 10%;
     }
+
+    /*---- faq section ----*/
+
+    #faq-section {
+        padding: 60px 0;
+    }
+
+    .faq-content {
+        margin: 0;
+    }
+
+    .duration-function {
+        margin-bottom: 140px;
+    }
+
+    /*---- contact section ----*/
+
+    #contact-section {
+        padding: 60px 0;
+    }
+
+    .contact-service {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .contact-service h3 {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    .contacts {
+        width: 100%;
+        padding-left: 0;
+    }
 }
