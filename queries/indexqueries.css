@@ -178,11 +178,13 @@
     }
 
     .vector {
-        margin-bottom: 40px;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 60px;
     }
 
-    .vector p {
-        font-size: 23px;
+    .vector:last-child {
+        margin-bottom: 0;
     }
 
     .division2 {
@@ -217,6 +219,10 @@
 
     .faq-content {
         margin: 0;
+    }
+
+    .content {
+        padding-left: 10px;
     }
 
     .duration-function {
@@ -340,4 +346,24 @@
     }
 
     /*---- brand section ----*/
+
+    .vector {
+        width: 100%;
+    }
+
+    /*---- faq section ----*/
+
+    .content {
+        padding-left: 10px;
+    }
+
+    /*---- footer section ----*/
+
+    .footer-logo {
+        width: 30%;
+    }
+
+    .footer-nav-links ul li a {
+        margin-right: 10px;
+    }
 }
