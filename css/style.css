@@ -255,6 +255,7 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .diagnostics,
@@ -346,6 +347,10 @@
     width: 40%;
 }
 
+.carengine {
+    width: 42%;
+}
+
 .display-text h5 {
     font-size: 35px;
     color: #F2F2F2;
@@ -381,19 +386,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .professionals,
 .years-of-experience,
 .service-closed,
 .customer-satisfaction {
-    margin: 0 70px;
+    margin: 0 20px;
 }
 
 .exp-paragraph-head {
     font-size: 58px;
     color: #661CE7;
     font-weight: bolder;
+}
+
+.exp-paragraph-text {
+    width: 190px;
 }
 
 .exp-paragraph-text p {

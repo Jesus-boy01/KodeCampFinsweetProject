@@ -263,3 +263,81 @@
         text-align: center;
     }
 }
+
+/*---- Tablet Devices ----*/
+
+@media (min-width: 457px) and (max-width: 769px) {
+}
+
+/*---- Laptop Devices ----*/
+
+@media (min-width: 970px) and (max-width: 1025px) {
+
+    /*---- hero section ----*/
+    .text-section h1 {
+        font-size: 40px;
+    }
+
+    /*---- quote section ----*/
+
+    #quote-section .flex-sm-column {
+        justify-content: space-between;
+    }
+
+    #quote-section .left-section h2,
+    #quote-section .right-form-section h3 {
+        font-size: 43px;
+    }
+
+    #quote-section .left-section .image-box {
+        width: 12%;
+    }
+
+    #quote-section .left-section .text-box {
+        width: 100%;
+    }
+
+    #quote-section .right-form-section h3 {
+        margin-bottom: 15px;
+    }
+
+    /*---- about section ----*/
+
+    .learnmore h3 {
+        font-size: 43px;
+    }
+
+    .listings-content h5 {
+        font-size: 30px;
+    }
+
+    #one,
+    #two,
+    #three {
+        width: 80%;
+    }
+
+    /*---- service section ----*/
+
+    .service-header h2 {
+        font-size: 45px;
+    }
+
+    .services-section1,
+    .services-section2 {
+        flex-wrap: nowrap;
+    }
+
+    .learn-about-services {
+        width: 100%;
+    }
+
+    /*---- experience section ----*/
+
+    .display-text h5 {
+        font-size: 30px;
+        padding: 25px 40px 30px;
+    }
+
+    /*---- brand section ----*/
+}
