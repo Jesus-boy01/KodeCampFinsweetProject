@@ -418,6 +418,90 @@
     .exp-paragraph-text {
         width: 100%;
     }
+    
+    /*---- brand section ----*/
+
+    
+    /*---- reviews section ----*/
+
+    .reviews-header h3 {
+        font-size: 35px;
+    }
+
+    .review-content {
+        padding: 30px;
+    }
+
+    .review-paragraph p {
+        font-size: 20px;
+    }
+
+    .arrow-navigations {
+        margin-top: -20px;
+    }
+
+    /*---- faq section ----*/
+
+    #faq-section {
+        padding: 90px 0;
+    }
+
+    .faq-content {
+        margin: 0 90px;
+    }
+
+    .time-duration,
+    .appointment,
+    .repair-services,
+    .auto-body,
+    .spare-parts {
+        padding: 20px;
+    }
+
+    /*---- contact section ----*/
+
+    #contact-section {
+        padding: 60px 0;
+    }
+
+    .contact-service {
+        width: 60%;
+    }
+
+    .contact-service h3 {
+        font-size: 38px;
+    }
+
+    .contacts {
+        padding-left: 80px;
+    }
+
+    .contacts ul p {
+        font-size: 20px;
+    }
+
+    /*---- footer ----*/
+
+    .footer-logo {
+        width: 20%;
+        margin-right: 30px;
+    }
+
+    .footer-nav-links {
+        width: 60%;
+    }
+
+    .footer-nav-links ul li a {
+        margin-right: 15px;
+    }
+
+    .footer-nav-links ul li a:last-child {
+        margin-right: 30px;
+    }
+
+    .footer-text {
+        width: 20%;
+    }
 }
 
 /*---- Laptop Devices ----*/
