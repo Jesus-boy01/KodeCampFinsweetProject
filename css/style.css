@@ -123,6 +123,10 @@
     background: #E2E6E9;
 }
 
+#quote-section .flex .flex-sm-column {
+    justify-content: space-between;
+}
+
 #quote-section .left-section,
 #quote-section .right-form-section {
     width: 45%;

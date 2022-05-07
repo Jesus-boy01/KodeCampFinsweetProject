@@ -1,6 +1,6 @@
 /*---- Mobile Devices ----*/
 
-@media (max-width: 456px) {
+@media (max-width: 426px) {
     /*---- header section ----*/
 
     .main-header {
@@ -17,7 +17,6 @@
 
     .right-section .navigation ul {
         flex-direction: column;
-
     }
 
     .right-section .navigation {
@@ -272,7 +271,65 @@
 
 /*---- Tablet Devices ----*/
 
-@media (min-width: 457px) and (max-width: 769px) {
+@media (min-width: 540px) and (max-width: 769px) {
+    /*---- default settings ----*/
+
+    .container {
+        overflow-x: hidden;
+        width: 90%;
+        margin: 0 50px;
+    }
+
+    /*---- header section ----*/
+
+    .right-section .navigation {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        display: none;
+    }
+
+    /*---- hero section ----*/
+
+    .text-section h1 {
+        font-size: 45px;
+    }
+
+    /*---- quote section ----*/
+
+    #quote-section .left-section {
+        margin-right: 40px;
+    }
+
+    #quote-section .left-section h2 {
+        font-size: 40px;
+    }
+
+    #quote-section .left-section .image-box {
+        width: 13%;
+    }
+
+    #quote-section .left-section .text-box {
+        width: 80%;
+    }
+
+    #quote-section .right-form-section h3 {
+        font-size: 40px;
+    }
+
+    /*---- about section ----*/
+
+    #about-section {
+        padding: 100px 0;
+    }
+
+    .learnmore h3 {
+        font-size: 40px;
+    }
+
+    .about {
+        margin-top: 0;
+    }
 }
 
 /*---- Laptop Devices ----*/
