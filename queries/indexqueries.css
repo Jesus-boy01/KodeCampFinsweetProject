@@ -330,6 +330,94 @@
     .about {
         margin-top: 0;
     }
+
+    #one,
+    #two {
+        width: 80%;
+    }
+
+    #three {
+        width: 95%;
+    }
+
+    .listings-content h5 {
+        font-size: 28px;
+    }
+
+    .listings-content p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    /*---- service section ----*/
+
+    .service-header h2 {
+        font-size: 43px;
+    }
+
+    .services-section1,
+    .services-section2 {
+        flex-wrap: nowrap;
+    }
+
+    .diagnostics,
+    .body-work,
+    .engine-repair,
+    .wheel-repair,
+    .batteries,
+    .insurance-claim,
+    .oil-filter,
+    .custom-service {
+        width: 160px;
+        padding: 30px;
+    }
+
+    #diagnostics {
+        padding: 30px;
+    }
+
+    .learn-about-services {
+        width: 95%;
+    }
+
+    /*---- experience section ----*/
+
+    .display {
+        height: 75vh;
+    }
+
+    .display-text h5 {
+        font-size: 30px;
+        padding: 25px 30px 30px;
+    }
+
+    .display-text a {
+        margin-left: 30px;
+    }
+
+    .car-getintouch {
+        width: 20%;
+    }
+
+    .carengine {
+        width: 40%;
+    }
+
+    .experience-content {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .professionals,
+    .years-of-experience,
+    .service-closed,
+    .customer-satisfaction {
+        width: 30%;
+    }
+
+    .exp-paragraph-text {
+        width: 100%;
+    }
 }
 
 /*---- Laptop Devices ----*/
