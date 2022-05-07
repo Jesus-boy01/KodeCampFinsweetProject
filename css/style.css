@@ -129,7 +129,11 @@
 
 #quote-section .left-section,
 #quote-section .right-form-section {
-    width: 45%;
+    width: 50%;
+}
+
+#quote-section .left-section {
+    margin-right: 50px;
 }
 
 #quote-section ul {
@@ -156,7 +160,7 @@
 
 
 #quote-section .left-section .text-box {
-    width: 50%;
+    width: 60%;
 }
 
 #quote-section .left-section .text-box h5 {
@@ -182,7 +186,7 @@
 
 .learnmore {
     width: 50%;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .learnmore h3 {
