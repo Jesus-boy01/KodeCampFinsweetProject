@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+/*---- default settings ----*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif; 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#our-services-section,
+#auto-diagnostics-section,
+#work-process-section {
+    padding: 90px 0;
+}
+
+/*---- header section ----*/
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+/*---- our-services section ----*/
+
+.services {
+    display: flex;
+    margin: 0 60px;
+}
+
+.services-image {
+    background: url("../services-img/services-bg.png") no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 40%;
+}
+
+.services-content {
+    width: 60%;
+    background-color: #1E1B1B;
+    color: #fff;
+    padding: 60px 60px 100px;
+}
+
+.services-header h2 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.services-text p {
+    font-size: 18px;
+}
+
+.orange-btn {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+}
+
+/*---- auto-diagnostics section ----*/
+
+#auto-diagnostics-section {
+    background-color: #F5F5F5;
+}
+
+.auto-diagnostics {
+    display: flex;
+}
+
+.selected-auto {
+    width: 48%;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.auto-image img {
+    width: 100%;
+}
+
+.auto-header h3 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.auto-text p {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.service-details {
+    margin-top: 25px;
+}
+
+.service-details p {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.col-others {
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    cursor: pointer;
+    width: 550px;
+}
+
+.others {
+    width: 45%;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+#engine,
+#bodywork,
+#batteries,
+#carwash,
+#acrepair {
+    padding: 60px;
+}
+
+#auto {
+    padding: 60px;
+    background-color: #FF6433;
+    color: #fff;
+}
+
+#engine:hover,
+#bodywork:hover,
+#batteries:hover,
+#carwash:hover,
+#acrepair:hover {
+    background-color: #FF6433;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.others-image,
+.others-text {
+    text-align: center;
+}
+
+.others-text p {
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+/*---- work-process section ----*/
+
+.work-process {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-process-content {
+    width: 40%;
+    margin-right: 40px;
+}
+
+.work-process-header h3 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.work-process-text ul li {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.work-process-text ul li img {
+    height: 3%;
+    margin-right: 20px;
+}
+
+.work-process-text ul li p {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.work-process-images {
+    width: 50%;
+}
+
+.work-process-display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display1,
+.display2 {
+    width: 40%;
+}
+
+/*---- diagnose section ----*/
+
+#diagnose-section {
+    padding: 90px 0 150px;
+}
+
+.diagnose {
+    display: flex;
+    justify-content: space-between;
+}
+
+.diagnose-images {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    height: auto;
+}
+
+.diagnose-display1,
+.diagnose-display2 {
+    width: 48%;
+}
+
+.diagnose-content {
+    width: 48%;
+}
+
+.diagnose-header h3 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.diagnose-text p {
+    font-size: 18px;
+}
+
+/*---- contact section ----*/
+
+#contact-section {
+    background-color: #1E1B1B;
+    opacity: 0.98;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.contact-service {
+    width: 40%;
+}
+
+.contact-service h3 {
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.contact-service img {
+    margin-right: 20px;
+}
+
+.contacts {
+    width: 60%;
+    padding-left: 130px;
+}
+
+.contacts ul li {
+    list-style: none;
+    color: #939191;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contacts ul p {
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+/*---- footer ----*/
+
+footer {
+    background-color: #1E1B1B;
+    padding: 60px 0;
+}
+
+.footer {
+    align-items: center;
+}
+
+.footer-logo {
+    width: 30%;
+    color: #fff;
+}
+
+.footer-nav-links {
+    width: 50%;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-text {
+    width: 20%;
+    color: #939191;
+    font-size: 16px;
+}
+
+.footer-nav-links ul li {
+    list-style: none;
+}
+
+.footer-nav-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.footer-nav-links ul li a:hover {
+    color: #FF6433;
+    transition: 0.3s ease-in-out;
+}
