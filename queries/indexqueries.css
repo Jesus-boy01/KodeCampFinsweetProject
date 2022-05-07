@@ -421,6 +421,46 @@
     
     /*---- brand section ----*/
 
+    #brand-section .container {
+        margin: 0 auto;
+    }
+
+    .brand-content {
+        padding: 0 60px;
+    }
+
+    .vector {
+        width: 22%;
+    }
+
+    .vector img {
+        margin: 0 5px 0 10px ;
+    }
+
+    .vector2 {
+        margin-top: 20px;
+    }
+
+    .vector-text p {
+        margin-right: 10px;
+        font-size: 16px;
+    }
+
+    #vectorpart1 {
+        margin: 0 0 -23px -2px;
+    }
+
+    #vectorpart2 {
+        margin: -30px 5px 18px 13px;
+    }
+
+    #vector2part {
+        margin: -46px 5px 27px 27px;
+    }
+
+    .vector-dot {
+        margin: 0 20px 15px -20px;
+    }
     
     /*---- reviews section ----*/
 
