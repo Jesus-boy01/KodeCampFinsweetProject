@@ -1,0 +1,56 @@
+@media (max-width: 360px) {
+
+}
+
+@media (max-width: 426px) {
+    /*---- header section ----*/
+
+    .main-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .right-section {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        display: none;
+    }
+
+    .right-section .navigation ul {
+        flex-direction: column;
+    }
+
+    .right-section .navigation {
+        border: none;
+        width: 100%;
+    }
+
+    .right-section ul li {
+        padding: 10px 0;
+        margin-right: 0;
+    }
+
+    .right-section ul li a {
+        display: block;
+    }
+
+    .road-assistance {
+        padding: 10px 0;
+    }
+
+    /*---- our-services section ----*/
+
+    .services {
+        flex-direction: column;
+    }
+
+    .services-image,
+    .services-content {
+        width: 100%;
+    }
+
+    .services-image {
+        padding-right: 100px;
+    }
+}
