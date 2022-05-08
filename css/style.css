@@ -47,6 +47,10 @@
     border-right: 2px solid #ccc;
 }
 
+#home-nav {
+    color: #FF6433;
+}
+
 .road-assistance .icon {
     margin-right: 10px;
 }
