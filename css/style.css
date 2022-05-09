@@ -12,6 +12,8 @@
     margin: 0 auto;
 }
 
+/*---- header section ----*/
+
 .main-header {
     display: flex;
     justify-content: space-between;
@@ -48,6 +50,10 @@
 }
 
 #home-nav {
+    color: #FF6433;
+}
+
+.right-section .navigation ul li a:hover {
     color: #FF6433;
 }
 
